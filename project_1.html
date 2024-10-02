@@ -2,35 +2,33 @@
 <html lang="en" dir="ltr" data-bs-theme="light">
 
 <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <!--Title-->
-    <title>Open Project Space</title>
-    <!--Favicon-->
-    <link rel="icon" href="./assets/images/ops_logo_favicon.png">
-    <!--Roboto Font CDN-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto"
-        rel="stylesheet">
-    <!--Beckman Font CDN-->
-    <link href="https://fonts.cdnfonts.com/css/beckman" rel="stylesheet">
-    <!-- Custom Stylesheet "custom.css" used for Bootstrap 5.3.0 css-->
-    <link rel="stylesheet" href="./css/custom.css" type="text/css">
-    <!-- Popper JS v2.11.8 (Bootstrap Dependency) CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap JS v5.3.0 CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap Icons CSS v1.10.0 CDN-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <!-- Highlight JS v11.7.0-->
-    <link rel="stylesheet" href="./css/highlight.js/default.min.css" type="text/css">
-    <link rel="stylesheet" href="./css/highlight.js/arduino-light.min.css" type="text/css">
-    <script src="./js/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<!--Title-->
+	<title>Open Project Space</title>
+	<!--Favicon-->
+	<link rel="icon" href="./assets/images/ops_logo_favicon.png">
+	<!--Roboto Font CDN-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+	<!--Beckman Font CDN-->
+	<link href="https://fonts.cdnfonts.com/css/beckman" rel="stylesheet">
+	<!-- Custom Stylesheet "custom.css" used for Bootstrap 5.3.0 css-->
+	<link rel="stylesheet" href="./css/custom.css" type="text/css">
+	<!-- Popper JS v2.11.8 (Bootstrap Dependency) CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+	integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+	crossorigin="anonymous"></script>
+	<!-- Bootstrap JS v5.3.0 CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+	integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+	crossorigin="anonymous"></script>
+	<!-- Bootstrap Icons CSS v1.10.0 CDN-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+	<!-- Highlight JS v11.7.0-->
+	<link rel="stylesheet" href="./css/highlight.js/default.min.css" type="text/css">
+	<link rel="stylesheet" href="./css/highlight.js/arduino-light.min.css" type="text/css">
+	<script src="./js/highlight.min.js"></script>
+	<script>hljs.highlightAll();</script>
 </head>
 
 <body style="">
@@ -109,20 +107,24 @@
 				</div>
 				<div class="alert alert-light" role="alert">
 					<i class="bi bi-calendar-event me-1"></i>
-					Updated 2023.09.20 <br>
+					Updated 2024.01.04 <br>
 					By Gavin Nguyen and Dylan Vu
 				</div>
 			</div>
 
+
 			<h2 class="mb-3 fw-bold" id="pj-heading-introduction">Overview</h2>
-			<p class="mb-2">
+			<p class="mb-3">
 				Every electrical engineer has to start somewhere; for you, it's no different. We'll stick with the classic beginner's project:
 				You will build a basic LED circuit on a breadboard. Then, you will solder it onto a perfboard.
 			</p>
-			<p class="mb-5">
+			<p class="mb-3">
 				Because this is the very first project, let's walk through the layout of this webpage: The first section, “Concepts”, discusses
 				the key details from the accompanying lecture that are most relevant to the project. The following section, “Requirements”, lists
-				all the <i>requirements</i> your deliverable must meet for full marks.  The “Parts” and “Schematics” sections show the components needed
+				all the <i>requirements</i> your deliverable must meet for full marks.
+			</p>
+			<p class="mb-5">
+				The “Parts” and “Schematics” sections show the components needed
 				and the circuit schematics, respectively. Next, “Instructions” describe how to assemble the deliverables. Last but not least, the
 				“Deliverables” section outlines exactly what you will submit in the Canvas course. This last section is only relevant to students
 				participating in the course, but our online resources remain available to everyone.
@@ -130,8 +132,9 @@
 
 			<h2 class="mb-4 fw-bold" id="pj-heading-concepts">Concepts</h2>
 			<h3 class="mb-4" id="pj-heading-concepts-breadboards">Breadboard</h3>
-			<div>
-				<img class="img-fluid my-3 me-5 float-start" src="./assets/images/project_1/ops_breadboard_half.jpg" width = "350">
+
+			<div class = "mb-5">
+				<img class="pj-img-fluid-end" src="./assets/images/project_1/ops_breadboard_half.jpg" width ="300">
 				<p class="mb-2">
 					You will use a <strong>breadboard</strong> to prototype your circuits. Inside the breadboard are
 					conductive metal strips.
@@ -139,39 +142,32 @@
 				<p class="mb-2">
 					When you insert components into holes of the same strip, current can flow between those components.
 				</p>
-				<p class="mb-2">
+				<p class="">
 					Closely follow the illustrations below to understand how current travels through the breadboard.
 				</p>
 			</div>
 			
-
 			<div class = "mb-3">
-				<img class="img-fluid my-3 me-5 float-start"
-				src="./assets/images/project_1/ops_breadboard_explanation_1.png" width = "425">
-				<img class="img-fluid my-3 me-5 float-end"
-				src="./assets/images/project_1/ops_breadboard_explanation_2.2 (1).png" width = "425">
+				<img class="pj-img-fluid-start"
+				src="./assets/images/project_1/ops_breadboard_explanation_1.png" width = "350">
+				<img class="pj-img-fluid-end"
+				src="./assets/images/project_1/ops_breadboard_explanation_2.2 (1).png" width = "350">
 			</div>
 			<p class = "mb-3">
 				<strong>Remember to place a component’s terminals on different strips.</strong> If both terminals sit on 
 				the same strip, current will not flow properly through the component.
 			</p>
 
-			<div style= "text-align: center;" class="mb-3">
-				<img class="mb-5 img-fluid my-3 me-5"
-					src="./assets/images/project_1/ops_breadboard_explanation_3.png">
-			</div>
-			<style>
 
-			h6 {
-				font-size: 80px;
-			}
-			</style>
+			<img class="pj-img-fluid mx-auto mb-5" src="./assets/images/project_1/ops_breadboard_explanation_3.png" width="500">
+			
 
 			<h3 class="mb-4" id="pj-heading-concepts-ohms-law">Ohm’s Law</h3>
-			<h6 class="mb-4" >V = IR</h6>
+
 
 			<div class="mb-5">
-				<img class="img-fluid my-3 me-5 float-end" src="./assets/images/project_1/ops_ohms_law.png" width = "250">
+				<img class="pj-img-fluid-end" src="./assets/images/project_1/ops_ohms_law.png" width = "200">
+				<p class="display-5 mb-2" >V = IR</p>
 				<p class="mb-2">
 					Ohm’s Law relates the <strong>voltage (V)</strong>, <strong>current (I)</strong>, and <strong>resistance (R)</strong> in a circuit.
 				</p>
@@ -179,7 +175,7 @@
 					Take the figure here as an example: Suppose we hold the voltage at a constant value. As the resistance increases,
 					the current across the resistor decreases. In the opposite case, as resistance decreases, current increases.
 				</p>
-				<p class="mb-2">
+				<p class="">
 					We will use the formula to calculate a safe resistor value for our circuit. If our chosen resistance is too low,
 					we risk inducing a high current that our components are unable to withstand. However, a resistance too high limits
 					the current so that our LED is insufficiently powered.
@@ -199,10 +195,7 @@
 				<strong>four-band resistor:</strong>
 			</p>
 
-			<div style= "text-align: center;" class="mb-3">
-				<img class="img-fluid my-3 me-5"
-					src="./assets/images/project_1/ops_resistor_band_4.jpg" width = "250">
-			</div>
+			<img class="pj-img-fluid mx-auto mb-3" src="./assets/images/project_1/ops_resistor_band_4.jpg" width = "250">
 
 			<p class="mb-3">
 				The first two bands (<span class="text-red">red</span> and black) represent the <strong>digits</strong> of the resistor
@@ -217,14 +210,11 @@
 				When we combine the digits, multiplier, and tolerance, we identify the resistor value as <strong>200KΩ ±5%</strong>.
 			</p>
 
-			<div style= "text-align: center;" class="mb-5">
-				<img class="img-fluid my-3 max-height-override"
-					src="./assets/images/project_1/ops_resistor_chart.png" width = "600">
-			</div>
+			<img class="pj-img-fluid mx-auto mb-5" src="./assets/images/project_1/ops_resistor_chart.png" width = "500">
 
 			<h3 class="mb-3" id="pj-heading-concepts-led">LED (Light Emitting Diode)</h3>
 			<div class="mb-5">
-				<img class="img-fluid my-3 me-5 float-end" src="./assets/images/project_1/ops_led_annotate.png" width = "400">
+				<img class="pj-img-fluid-end mb-3" src="./assets/images/project_1/ops_led_annotate.png" width = "400">
 				<p class="mb-2">
 					An <strong>LED</strong> is a component that emits light! Big surprise.
 				</p>
@@ -234,7 +224,7 @@
 						class="text-red">anode</span>
 					to the <span class="text-gray">cathode</span> terminal.
 				</p>
-				<p class="mb-2">
+				<p class="">
 					The LED also has a constant <strong>voltage drop</strong> between its terminals within normal operating conditions.
 					The voltage is noted in the LED’s datasheet.
 				</p>
@@ -242,19 +232,17 @@
 
 
 			<h3 class="mb-3" id="pj-heading-concepts-slide-switch">Slide Switch</h3>
-
 			<div class="mb-5">
-				<p class="mb-2">
-					<img class="img-fluid my-3 me-5 float-start" src="./assets/images/project_1/ops_switch_slide_annotated.png" width = "300">
+				<img class="pj-img-fluid-left mb-3" src="./assets/images/project_1/ops_switch_slide_annotated.png" width = "300">
+				<p class="mb-2">		
 					You will use a <strong>slide switch</strong> to control the current flow in the circuit. The sliding contact
 					completes a
 					connection with the middle terminal (pin 2) and one of the two outer terminals (pins 1 and 3).
 				</p>
-				<p class="mb-2">
+				<p class="">
 					The slider is shifted in the direction of the outer terminal actively connected to the middle terminal.
 				</p>
 			</div>
-			
 
 			<h3 class="mb-3" id="pj-heading-concepts-soldering">Soldering</h3>
 			<p class="mb-5">
@@ -285,7 +273,7 @@
 						<td>
 							Jumper Wire
 						</td>
-						<td>X?</td>
+						<td>?</td>
 					</tr>
 					<tr>
 						<td>
@@ -317,7 +305,7 @@
 								Header, 2.54mm, Female, 1x2
 							</a>
 						</td>
-						<td>2</td>
+						<td>1</td>
 					</tr>
 					<tr>
 						<td>
@@ -356,10 +344,7 @@
 			<!-- End Part Table -->
 
 			<h2 class="mb-2 fw-bold" id="pj-heading-schematics">Schematics</h2>
-			<div style="text-align: center;" class="mb-5">
-				<img class="img-fluid my-3 me-5" src="./assets/images/project_1/ops_schem_proj1.png"
-					class="pj-schem">
-			</div>
+				<img class="pj-img-fluid-left mb-5" src="./assets/images/project_1/ops_schem_proj1.png" width="300">
 			<h2 class="mb-3 fw-bold" id="pj-heading-instructions">Instructions</h2>
 			<h3 class="mb-3" id="pj-heading-checkpoint1">Checkpoint 1</h3>
 			<ol class="mb-5 list-group list-group-numbered">

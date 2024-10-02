@@ -25,11 +25,11 @@ $theme-colors: (
 
 $display-font-sizes: (
     1: 6rem,
-    2: 4.5rem,
-    3: 4rem,
-    4: 3.5rem,
-    5: 3rem,
-    6: 2.5rem
+    2: 3.5rem,
+    3: 3.25rem,
+    4: 3rem,
+    5: 2.5rem,
+    6: 2rem
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -76,6 +76,15 @@ body {
 .text-indigo {
     color: $indigo-400;
 }
+
+.text-purple {
+    color: $purple-500;
+}
+
+.text-pink {
+    color: $pink-400;
+}
+
 
 
 
