@@ -69,7 +69,8 @@
 
 .pj-sidebar nav a.active {
 
-    background-color: #0091e1;
+    background-color: $primary;
+    // background-color: #0091e1; Not sure why this was different than the primary color but whatever... overriding to "archive" primary
     color: white;
 }
 
