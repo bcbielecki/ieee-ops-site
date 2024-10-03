@@ -30,16 +30,25 @@ document.write(`
     </ul>
 
     <ul class="list-unstyled small">
-    <li class="fw-bold">
-        Have Questions? Contact Us
-    </li>
-    <li>
-        Email | <a href="mailto:ieee@uci.edu">ieee@uci.edu<a>
-    </li>
-    <li>
-        Lead Instructor | Benjamen Bielecki
-    </li>
-</ul>
+        <li class="fw-bold">
+            Have Questions? Contact Us
+        </li>
+        <li>
+            Email | <a href="mailto:ieee@uci.edu">ieee@uci.edu<a>
+        </li>
+    </ul>
+
+    <ul class="list-unstyled small">
+        <li class="fw-bold">
+            Reporting a Site Issue? Send an Email
+        </li>
+        <li>
+            Email | <a href="mailto:bbieleck@uci.edu?subject=OPS%20Archive:%20Bug%20Report&body=Hi Ben,%0D%0A%0D%0AI%20noticed%20that _____[something%20isn't%20working%20as%20expected]_____.%20I%20appended%20screenshots%20of%20this%20issue%20to%20this%20email.%0D%0A%0D%0AWould%20you%20be%20able%20to%20fix%20it?%0D%0A%0D%0AThanks,%0D%0A____[your%20name]____">bbieleck@uci.edu<a>
+        </li>
+        <li>
+            Webmaster | Benjamen Bielecki
+        </li>
+    </ul>
 </div>
 
 <script>
