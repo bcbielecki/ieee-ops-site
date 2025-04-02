@@ -1,6 +1,6 @@
 # OPS Webpages
 
-## [Preview Site]([https://archive.openprojectspace.org/)
+## [Preview Site](https://archive.openprojectspace.org/)
 
 ## Developing Guide
 
